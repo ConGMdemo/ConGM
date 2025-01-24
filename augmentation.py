@@ -6,6 +6,7 @@ import copy
 from torch_sparse import SparseTensor
 
 
+
 def add_remaining_selfloop_for_isolated_nodes(edge_index, num_nodes):
     num_nodes = max(maybe_num_nodes(edge_index), num_nodes)
     # only add self-loop on isolated nodes
