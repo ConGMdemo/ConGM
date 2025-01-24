@@ -152,4 +152,3 @@ Wisconsin:
   optimizer: sgd
   patience: 20
   inductive: False
-
