@@ -10,7 +10,6 @@ import torch
 from torch_sparse import SparseTensor
 from model import LogReg
 
-
 # borrow from BGRL [https://github.com/nerdslab/bgrl/blob/main/bgrl/logistic_regression_eval.py]
 def fit_logistic_regression(X, y, data_random_seed=1, repeat=1):
     # transfrom targets to one-hot vector
