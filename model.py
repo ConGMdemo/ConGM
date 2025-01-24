@@ -10,6 +10,7 @@ from torch_geometric.nn.inits import glorot
 from torch.nn import ModuleList
 from scipy.stats import norm
 
+
 class GraphConvLayer(nn.Module):
     def __init__(self, in_features, out_features):
         super(GraphConvLayer, self).__init__()
