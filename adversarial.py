@@ -1,6 +1,5 @@
 import torch
 
-
 def ad_training(model, node_attack, perturb_shape, args, device):
     model.train()
 
