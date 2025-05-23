@@ -18,7 +18,6 @@ from yaml import SafeLoader
 from tqdm import tqdm
 
 
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 def train(args):
