@@ -2,7 +2,7 @@
 
 ## Files
 ```
-   .
+
     ├── dataset_apis                  # Code process datasets.
     │   ├── topology_dist              # Storing the distance of the shortest path (SPD) between vi and vj.
     │   ├── citeseer.py                # processing for citeseer dataset.
