@@ -1,6 +1,7 @@
 from torch_geometric.datasets import WebKB
 import torch_geometric.transforms as T
 
+
 def load_trainset(trans):
     return WebKB(root='~/datasets', name='Wisconsin', transform=trans)
 
