@@ -130,6 +130,7 @@ Texas:
   optimizer: sgd
   patience: 20
   inductive: False
+  
 Wisconsin:
   seed: 39788
   learning_rate: 0.001
